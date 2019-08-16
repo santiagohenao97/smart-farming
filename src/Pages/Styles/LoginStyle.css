@@ -1,0 +1,22 @@
+.bg-Login{
+    width: 100vw;
+    height: 100vh;
+    background: #B2DFDB;
+    
+}
+
+.register{
+    padding: 0% 15% 2% 15%;
+}
+
+.Login{
+   
+    background-color:rgba(	0, 150, 136, 0.692) !important ;
+    border-radius: 20px;
+   
+}
+
+.Logo{
+    height: 80px;
+    width: 80px;
+}
