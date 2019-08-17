@@ -1,7 +1,9 @@
 .bg-Login{
     width: 100vw;
     height: 100vh;
-    background: #B2DFDB;
+    background: url(../../img/abstractbg.jpg) no-repeat center center fixed; 
+    
+    
     
 }
 
@@ -11,12 +13,12 @@
 
 .Login{
    
-    background-color:rgba(	0, 150, 136, 0.692) !important ;
+    background-color:  rgba(243, 245, 250,0.9) !important ;
     border-radius: 20px;
    
 }
 
-.Logo{
-    height: 80px;
-    width: 80px;
+.Logo-form{
+    height: 200px;
+    width: 200px;
 }

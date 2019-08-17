@@ -55,7 +55,7 @@ class Main extends Component {
                         </Link>   
                         </div>
                         <div className="col-lg-4 col-sm-6">
-                        <Link to={'/'}>    <figure className="figure">
+                        <Link to={'/Plan'}>    <figure className="figure">
                                 <img src={plan} className="figure-img img-fluid img-style" alt="A generic square placeholder image with rounded corners in a figure."/>
                                 <figcaption className="figure-caption">Mi plan</figcaption>
                             </figure>

@@ -1,17 +1,15 @@
-html, body {
+body {
     height: 100%;
     color: black;
-    background: url(../../img/abstractbg.jpg);
+    background: url(../../img/abstractbg.jpg); 
+    
   }
-  
-  h1 {
-    margin: 20px 0 15px 0;  
-  }
-  
+
   #main {
-    width: 600px;
+    width: 80vh;
     margin: 0 auto;
     text-align: left;
+    min-height: 400px !important;
   }
   
   ul {
@@ -23,8 +21,7 @@ html, body {
   }
   
   .form-inline .form-control {
-    width: 50%;
-    margin-left: 80px;
+    width: 60%;
   }
   
   .done {
@@ -40,3 +37,8 @@ html, body {
     margin: 6px 10px 6px 0;
   }
   
+  .bg-todo{
+    background-color:whitesmoke;
+    color: darkgray !important;
+    
+}

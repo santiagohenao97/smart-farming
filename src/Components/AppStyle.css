@@ -1,9 +1,11 @@
 .background{
-    background: url(../img/abstractbg.jpg)
+    background: url(../img/abstractbg.jpg);
+    
 }
 
 .board{
     background-color: white;
+    min-height: 95vh !important;
 }
 .navigation{
     background-color: #232323;

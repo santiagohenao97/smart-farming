@@ -9,6 +9,8 @@ class Chart extends Component {
     super(props);
     this.state = {
       chartData: {
+          min:this.props.chartLine['min'],
+          max:this.props.chartLine['max'],
           labels:this.props.chartLine['horas'],
           datasets:[
               {
@@ -21,24 +23,25 @@ class Chart extends Component {
                 data:this.props.chartLine['data2'],
                 backgroundColor:this.props.chartLine['background2'],
             }, 
+            
           ]
       }
     };
   }
   render() {
-    console.log(this.props.chartLine, "hola")
+    
     return (
       <div className="chart">
         <Line
           data={this.state.chartData}
           width={100}
-          height={80}
+          height={70}
           options={{ scales: {
             yAxes: [
               {
                 ticks: {
-                  min: 0,
-                  max: 50
+                  min: this.props.chartLine['min'],
+                  max: this.props.chartLine['max'],
                 },
                 
               }

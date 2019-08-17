@@ -19,7 +19,7 @@ class Login extends React.Component {
 		    <div className="container ">
                 <div className="brand">
                     <div className="row">
-                        <div className="col-lg-2 d-none d-lg-block"></div>
+                        <div className="col-lg-2 d-none d-lg-block "></div>
                         <div className="col-lg-8 col-sm-12 col-xs-12 ">
                             
                             <div className="register Login text-center mt-5">
@@ -27,7 +27,7 @@ class Login extends React.Component {
                             </div>
                         </div>
                         <div className="col-lg-2 d-none d-lg-block fixed-bottom ">
-                            <img src={Logo}/>
+                            
                         </div>
                         
                         

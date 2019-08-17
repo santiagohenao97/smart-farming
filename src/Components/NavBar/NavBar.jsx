@@ -10,7 +10,7 @@ class NavBar extends React.Component {
             <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
-            <Link className="navbar-brand" to='/'>
+            <Link className="navbar-brand" to='/Home'>
               <span className="menu-collapsed">SF</span>
             </Link>
             <div className="collapse navbar-collapse" id="navbarNavDropdown">
@@ -23,9 +23,9 @@ class NavBar extends React.Component {
                     Menu Principal
                   </a>
                   <div className="dropdown-menu" aria-labelledby="smallerscreenmenu">
-                      <a className="dropdown-item" href="#">Mi Tablero</a>
-                      <a className="dropdown-item" href="#">Mi Cuenta</a>
-                      <a className="dropdown-item" href="#">Pendientes</a>
+                      <Link to='/Plan' className="dropdown-item" href="#">Mi Tablero</Link>
+                      <Link to='/Password' className="dropdown-item" href="#">Mi Perfil</Link>
+                      
                       
                   </div>
                 </li>
@@ -34,8 +34,8 @@ class NavBar extends React.Component {
                     Mi cultivo
                   </a>
                   <div className="dropdown-menu" aria-labelledby="smallerscreenmenu2">
-                      <a className="dropdown-item" href="#">Calendario</a>
-                      <a className="dropdown-item" href="#">Editar</a>
+                      <Link to={'/Task'} className="dropdown-item" >Pendientes</Link>
+                      <Link to='/' className="dropdown-item" href="#">Agregar/Editar</Link>
                   </div>
                 </li>
                 <li className="nav-item dropdown d-sm-block d-md-none">
@@ -44,7 +44,7 @@ class NavBar extends React.Component {
                   </a>
                   <div className="dropdown-menu" aria-labelledby="smallerscreenmenu3">
                       <a className="dropdown-item" href="#">Ayuda</a>
-                      <a className="dropdown-item" href="#">Cerrar sesión</a>
+                      <Link to='/' className="dropdown-item" href="#">Cerrar sesión</Link>
                       
                   </div>
                 </li>

@@ -45,7 +45,7 @@ class TodoListItem extends React.Component {
     var todoClass = this.props.item.done ? 
         "done" : "undone";
     return(
-      <li className="list-group-item ">
+      <li className="list-group-item text-justify">
         <div className={todoClass}>
         <span className="glyphicon glyphicon-ok icon" aria-hidden="true" onClick={this.onClickDone}><i class="fas fa-check"></i></span>
           {this.props.item.value}
@@ -76,9 +76,9 @@ class TodoForm extends React.Component {
   }
   render () {
     return (
-      <form ref="form" onSubmit={this.onSubmit} className="form-inline">
-        <input type="text" className="text-light" ref="itemName" className="form-control" placeholder="agregar nueva tarea"/>
-        <button type="submit" className="btn btn-default">Agregar</button> 
+      <form ref="form" onSubmit={this.onSubmit} className="form-inline mt-2 mb-5 content-center">
+        <input type="text" className="text-light bg-todo form-control" ref="itemName"  placeholder="agregar nueva tarea"/>
+        <button type="submit" className="btn btn-outline-secondary">Agregar</button> 
       </form>
     );   
   }
@@ -132,7 +132,7 @@ class TodoApp extends React.Component {
 
     
     return (
-      <div id="main">
+      <div id="main container">
         <TodoHeader />
         <TodoList items={this.state.todoItems} removeItem={this.removeItem} markTodoDone={this.markTodoDone}/>
         <TodoForm addItem={this.addItem} />
