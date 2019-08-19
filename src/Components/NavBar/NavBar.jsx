@@ -43,7 +43,7 @@ class NavBar extends React.Component {
                     Opciones
                   </a>
                   <div className="dropdown-menu" aria-labelledby="smallerscreenmenu3">
-                      <a className="dropdown-item" href="#">Ayuda</a>
+                      <Link to="/Help" className="dropdown-item" href="#">Ayuda</Link>
                       <Link to='/' className="dropdown-item" href="#">Cerrar sesión</Link>
                       
                   </div>

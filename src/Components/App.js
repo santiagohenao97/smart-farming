@@ -14,6 +14,7 @@ import Task from '../Components/TaskComponent/todo';
 import Plan from '../Pages/Plan';
 import Password from '../Pages/Password';
 import Profile from '../Pages/Profile';
+import Help from '../Pages/Help';
 
 import Layout from './Layout';
 
@@ -37,6 +38,7 @@ const App = () => {
                     <Route exact path = "/Plan" component={Plan} />
                     <Route exact path = "/Password" component={Password} />
                     <Route exact path = "/Profile" component={Profile} />
+                    <Route exact path = "/Help" component={Help} />
                     </Layout> 
                 </Switch> 
                      

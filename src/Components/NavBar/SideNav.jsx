@@ -65,12 +65,12 @@ class SideNav extends Component {
          <small>OPCIONES</small>    
         </li>            
 
-         <a href="#" className="navigation list-group-item list-group-item-action">
+         <Link to="/Help" className="navigation list-group-item list-group-item-action">
              <div className="d-flex w-100 justify-content-start align-items-center">
                  <span className="fa fa-question fa-fw mr-3"></span>
                  <span className="menu-collapsed">Ayuda</span>
              </div>
-         </a>
+         </Link>
          <Link to={'/'} className="navigation list-group-item list-group-item-action d-flex align-items-center">
              <div className="d-flex w-100 justify-content-start align-items-center">
                 <span className="fa fa-user fa-fw mr-3"></span>
