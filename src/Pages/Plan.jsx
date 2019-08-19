@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import DataBase from "../Data/Data"
+import { Link } from "react-router-dom";
 
 import ChartBar from '../Components/ChartComponent/ChartBar'
 import ChartLine from '../Components/ChartComponent/ChartLine'
@@ -11,24 +12,32 @@ class Plan extends Component {
        
         this.state = {
             
-            dataChart:DataBase.PestChart   
+            dataChartBar:DataBase.PlanChart,
+            dataChartPie:DataBase.PlanChartPie,
+            dataChartLine:DataBase.PlanChartLine,
+
         }
     }
     render() { 
         return ( 
             <>
             <div className="container-fluid text-center mb-2">
-                <div className="row p-0 text-center">
-                    <h1>Mis indicadores</h1>
-                </div>
                 
                 <div className="row p-0">
-                    <div className="col-8">
-                        <ChartLine chartLine={this.state.dataChart}/>
+                    
+                    <div className="col-lg-8 col-sm-12">
+                        <h3>Mi Tablero</h3>
+                        <h5>Consumo de recursos</h5><br/>
+                        <ChartBar chartBar={this.state.dataChartBar}/>
+                        <Link to={"/Home"}>
+                <button className="btn btn-outline-success">Volver a Home</button>
+              </Link>
                     </div>
-                    <div className="col-4">
-                        <ChartPie chartLine={this.state.dataChart}/>
-                        <ChartBar chartLine={this.state.dataChart}/>
+                    <div className="col-lg-4 col-sm-12">
+                        <h5>Distribución del cultivo</h5>
+                        <ChartPie chartPie={this.state.dataChartPie}/><br/>
+                        <h5>Rendimiento</h5>
+                        <ChartLine chartLine={this.state.dataChartLine}/><br/>
 
                     </div>
 

@@ -29,7 +29,9 @@ class Card extends Component {
               <Link to={"/Home"}>
                 <button className="btn btn-primary mr-2">Volver a Home</button>
               </Link>
+              <Link to={'/Plan'}>
               <button className="btn btn-primary">Ir a Mi Plan</button>
+              </Link>
             </div>
             <div className="col-lg-6 col-sm-12 ">
               <Chart chartLine={this.props.chart} />

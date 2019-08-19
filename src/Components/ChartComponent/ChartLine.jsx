@@ -22,7 +22,7 @@ class Chart extends Component {
                 label:this.props.chartLine['dataname2'],
                 data:this.props.chartLine['data2'],
                 backgroundColor:this.props.chartLine['background2'],
-            }, 
+            },
             
           ]
       }

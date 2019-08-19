@@ -7,7 +7,7 @@ class SideNav extends Component {
     render() { 
         return ( 
         <React.Fragment>
-            <div className="row" id="body-row">
+            <div className="row text-secondary" id="body-row">
  
     <div id="sidebar-container" className="sidebar-expanded d-none d-md-block mt-3">
   
@@ -17,13 +17,13 @@ class SideNav extends Component {
              <small>MENU PRINCIPAL</small>
          </li>
    
-         <a href="#submenu1" data-toggle="collapse" aria-expanded="false" className="navigation list-group-item list-group-item-action flex-column align-items-start">
+         <Link to='/Plan'   className="navigation list-group-item list-group-item-action flex-column align-items-start">
              <div className="d-flex w-100 justify-content-start align-items-center">
                  <span className="fa fa-dashboard fa-fw mr-3"></span> 
-                 <span className="menu-collapsed">Mi Tablero</span>
+                 <span className="menu-collapsed">Mi Plan</span>
                  <span className="submenu-icon ml-auto"></span>
              </div>
-         </a>
+         </Link>
        
          <a href="#submenu2" data-toggle="collapse" aria-expanded="false" className="navigation list-group-item list-group-item-action flex-column align-items-start">
              <div className="d-flex w-100 justify-content-start align-items-center">

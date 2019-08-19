@@ -19,27 +19,27 @@ class NavBar extends React.Component {
                 
               
                 <li className="nav-item dropdown d-sm-block d-md-none">
-                  <a className="nav-link dropdown-toggle" href="#" id="smallerscreenmenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <a className="nav-link dropdown-toggle text-secondary " href="#" id="smallerscreenmenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Menu Principal
                   </a>
                   <div className="dropdown-menu" aria-labelledby="smallerscreenmenu">
-                      <Link to='/Plan' className="dropdown-item" href="#">Mi Tablero</Link>
-                      <Link to='/Password' className="dropdown-item" href="#">Mi Perfil</Link>
+                      <Link to='/Plan' className="dropdown-item " href="#">Mi Plan</Link>
+                      <Link to='/Password' className="dropdown-item " href="#">Mi Perfil</Link>
                       
                       
                   </div>
                 </li>
                 <li className="nav-item dropdown d-sm-block d-md-none">
-                  <a className="nav-link dropdown-toggle" href="#" id="smallerscreenmenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <a className="nav-link dropdown-toggle text-secondary" href="#" id="smallerscreenmenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Mi cultivo
                   </a>
-                  <div className="dropdown-menu" aria-labelledby="smallerscreenmenu2">
-                      <Link to={'/Task'} className="dropdown-item" >Pendientes</Link>
-                      <Link to='/' className="dropdown-item" href="#">Agregar/Editar</Link>
+                  <div className="dropdown-menu text-primary" aria-labelledby="smallerscreenmenu2">
+                      <Link to={'/Task'} className="dropdown-item  " >Pendientes</Link>
+                      <Link to='/' className="dropdown-item  " href="#">Agregar/Editar</Link>
                   </div>
                 </li>
                 <li className="nav-item dropdown d-sm-block d-md-none">
-                  <a className="nav-link dropdown-toggle" href="#" id="smallerscreenmenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <a className="nav-link dropdown-toggle text-secondary" href="#" id="smallerscreenmenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Opciones
                   </a>
                   <div className="dropdown-menu" aria-labelledby="smallerscreenmenu3">

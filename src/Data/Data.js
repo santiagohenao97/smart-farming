@@ -4,7 +4,7 @@ import lumIcon from '../Components/HomeComponent/img/bulb.png'
 import cropIcon from '../Components/HomeComponent/img/sprinkler.png'
 import nutriIcon from '../Components/HomeComponent/img/seed-bag.png'
 import pestIcon from '../Components/HomeComponent/img/leaf.png'
-import planIcon from '../Components/HomeComponent/img/analytics.png'
+
 
 const DataBase = {
 
@@ -122,6 +122,45 @@ const DataBase = {
         "max":0.012
         
     },
+
+    "PlanChart":{
+        "horas":['Agua','Energía','Nutrientes','Pesticida',],
+        "dataname1":"Antes",
+        "data1":[100,100,100,100],
+        "background1":'rgba(100, 10, 13, 0.2)',
+        "dataname2":"Despues",
+        "data2":[65,80,70,40],
+        "background2":'rgba(0, 150, 136, 0.2)',
+        
+        "min":0,
+        "max":120 
+    },
+
+    "PlanChartPie":{
+        "horas":['Lechuga','Tomate'],
+        "dataname1":"Antes",
+        "data1":[70,30],
+        "background1":['rgba(0, 150, 136, 0.2)','rgba(100, 10, 13, 0.2)'],
+        
+        
+        "min":0,
+        "max":100 
+    },
+
+    "PlanChartLine":{
+        "horas":['','','','','',''],
+        "dataname1":"Antes",
+        "data1":[0,23,40,67,67,70],
+        "background1":'rgba(100, 10, 13, 0.2)',
+        "dataname2":"Despues",
+        "data2":[0,46,78,90,95,95],
+        "background2":'rgba(0, 150, 136, 0.2)',
+        
+        "min":0,
+        "max":100 
+    },
+
+
 
     
 
