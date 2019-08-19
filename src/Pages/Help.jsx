@@ -122,24 +122,20 @@ class Help extends Component {
                         <div className="card">
                             <div className="card-header" id="accordion-tab-2-heading-3">
                                 <h5>
-                                    <button className="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-2-content-3" aria-expanded="false" aria-controls="accordion-tab-2-content-3">Quiero editar mi perfil, ¿Qué hacer?</button>
+                                    <button className="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-2-content-3" aria-expanded="false" aria-controls="accordion-tab-2-content-3">Quiero modificar la información personal o del cultivo, ¿Qué hacer?</button>
                                 </h5>
+                            </div>
+                            <div className="collapse" id="accordion-tab-2-content-3" aria-labelledby="accordion-tab-2-heading-3" data-parent="#accordion-tab-2">
+                                <div className="card-body">
+                                    <p>El perfil fue registrado de manera directa al ingresar a nuestro plan. Cualquier cambio debe ser comunicado directamente con
+                                    los líderes del proyecto para ser evaluado
+                                    </p>
+                                    
+                                </div>
                             </div>
                             
                         </div>
-                        <div className="card">
-                            <div className="card-header" id="accordion-tab-2-heading-4">
-                                <h5>
-                                    <button className="btn btn-link" type="button" data-toggle="collapse" data-target="#accordion-tab-2-content-4" aria-expanded="false" aria-controls="accordion-tab-2-content-4">I haven't felt much of anything since my guinea pig died?</button>
-                                </h5>
-                            </div>
-                            <div className="collapse" id="accordion-tab-2-content-4" aria-labelledby="accordion-tab-2-heading-4" data-parent="#accordion-tab-2">
-                                <div className="card-body">
-                                    <p>And I'm his friend Jesus. Oh right. I forgot about the battle. OK, if everyone's finished being stupid. We'll need to have a look inside you with this camera. I'm just glad my fat, ugly mama isn't alive to see this day.</p>
-                                    <p><strong>Example: </strong> Isn't it true that you have been paid for your testimony? Quite possible.</p>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                 </div>
                 <div className="tab-pane" id="tab3" role="tabpanel" aria-labelledby="tab3">

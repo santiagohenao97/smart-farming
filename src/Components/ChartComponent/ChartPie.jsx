@@ -28,7 +28,7 @@ class Chart extends Component {
         <Pie
           data={this.state.chartData}
           width={100}
-          height={60}
+          height={45}
           
         />
       </div>

@@ -29,22 +29,22 @@ class Plan extends Component {
                         <h3>Mi Tablero</h3>
                         <h5>Consumo de recursos</h5><br/>
                         <ChartBar chartBar={this.state.dataChartBar}/>
-                        <Link to={"/Home"}>
-                <button className="btn btn-outline-success">Volver a Home</button>
-              </Link>
+                        
                     </div>
                     <div className="col-lg-4 col-sm-12">
                         <h5>Distribución del cultivo</h5>
                         <ChartPie chartPie={this.state.dataChartPie}/><br/>
                         <h5>Rendimiento</h5>
-                        <ChartLine chartLine={this.state.dataChartLine}/><br/>
+                        <ChartLine chartLine={this.state.dataChartLine}/>
 
                     </div>
 
                 </div>
                 <div className="row p-0">
-                    <div className="col-5">
-                        
+                    <div className="col-lg-8 col-sm-12">
+                    <Link to={"/Home"}>
+                <button className="btn btn-outline-success">Volver a Home</button>
+              </Link>
                     </div>
                     
 

@@ -31,7 +31,7 @@ class Chart extends Component {
         <Bar
           data={this.state.chartData}
           width={100}
-          height={55}
+          height={50}
           options={{
             scales: {
               yAxes: [
