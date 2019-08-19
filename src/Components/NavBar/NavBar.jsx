@@ -24,7 +24,7 @@ class NavBar extends React.Component {
                   </a>
                   <div className="dropdown-menu" aria-labelledby="smallerscreenmenu">
                       <Link to='/Plan' className="dropdown-item " href="#">Mi Plan</Link>
-                      <Link to='/Password' className="dropdown-item " href="#">Mi Perfil</Link>
+                      <Link to='/Profile' className="dropdown-item " href="#">Mi Perfil</Link>
                       
                       
                   </div>

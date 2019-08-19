@@ -34,9 +34,9 @@ class SideNav extends Component {
          </a>
      
          <div id='submenu2' className="collapse sidebar-submenu">
-             <a href="#" className="list-group-item list-group-item-action navigation text-white">
+             <Link to='/Profile' className="list-group-item list-group-item-action navigation text-white">
                  <span className="menu-collapsed text-dark">Ver perfil</span>
-             </a>
+             </Link>
              <Link to='/Password' className="list-group-item list-group-item-action navigation text-white">
                  <span className="menu-collapsed text-dark">Cambiar contraseña</span>
              </Link>

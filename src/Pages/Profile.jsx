@@ -34,7 +34,7 @@ class Profile extends Component {
               <div className="text-justify ">
               <h5><strong>Dirección de cultivo:</strong> Calle 2 # 19-97. Vda. Smart Farming</h5>
               <h5><strong>Tipo de cultivo:</strong> Hidropónico</h5>
-              <h5><strong>Hectareas cultivadas:</strong> 2</h5>
+              <h5><strong>Hectáreas cultivadas:</strong> 2</h5>
               <h5><strong>Especies cultivadas:</strong> Lechuga, tomate</h5>
               </div>
               <div class="responsive-map-container ">

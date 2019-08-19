@@ -18,5 +18,6 @@
 
 .div-height{
     min-height: 70vh;
+    max-height: 80vh;
     
 }
