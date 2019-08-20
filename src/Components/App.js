@@ -15,6 +15,7 @@ import Plan from '../Pages/Plan';
 import Password from '../Pages/Password';
 import Profile from '../Pages/Profile';
 import Help from '../Pages/Help';
+import AddEdit from '../Pages/AddEdit';
 
 import Layout from './Layout';
 
@@ -39,6 +40,7 @@ const App = () => {
                     <Route exact path = "/Password" component={Password} />
                     <Route exact path = "/Profile" component={Profile} />
                     <Route exact path = "/Help" component={Help} />
+                    <Route exact path = "/AddEdit" component={AddEdit}/>
                     </Layout> 
                 </Switch> 
                      

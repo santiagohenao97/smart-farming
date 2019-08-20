@@ -35,7 +35,7 @@ class NavBar extends React.Component {
                   </a>
                   <div className="dropdown-menu text-primary" aria-labelledby="smallerscreenmenu2">
                       <Link to={'/Task'} className="dropdown-item  " >Pendientes</Link>
-                      <Link to='/' className="dropdown-item  " href="#">Agregar/Editar</Link>
+                      <Link to='/AddEdit' className="dropdown-item  " href="#">Agregar/Editar</Link>
                   </div>
                 </li>
                 <li className="nav-item dropdown d-sm-block d-md-none">

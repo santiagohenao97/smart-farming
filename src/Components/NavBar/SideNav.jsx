@@ -54,12 +54,12 @@ class SideNav extends Component {
              </div>
          </Link>
        
-         <a href="#" className="navigation list-group-item list-group-item-action">
+         <Link to='/AddEdit' className="navigation list-group-item list-group-item-action">
              <div className="d-flex w-100 justify-content-start align-items-center">
                  <span className="fa fa-edit fa-fw mr-3"></span>
                  <span className="menu-collapsed">Agregar/Editar </span>
              </div>
-         </a>
+         </Link>
    
          <li className="list-group-item sidebar-separator menu-collapsed">
          <small>OPCIONES</small>    
